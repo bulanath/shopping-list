@@ -122,6 +122,16 @@
                 <td>${item.fields.price}</td>
                 <td>${item.fields.description}</td>
                 <td>${item.fields.date_added}</td>
+                <td>
+                    <a href="edit-product/${item.pk}">
+                        <button class="btn btn-warning">Edit</button>
+                    </a>
+                </td>
+                <td>
+                    <a href="delete/${item.pk}">
+                        <button class="btn btn-danger">Delete</button>
+                    </a>
+                </td>
             </tr>` 
             })
             
